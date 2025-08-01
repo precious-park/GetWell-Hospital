@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getwell | Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">🏥 Getwell</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link ">Services</a></li>
+                <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="doctors" class="hero">
+        <div id="doctors" class="hero"
+            style="background-image: url('images/iv drop.jpg'); background-size: cover; background-position: center; height: 90vh;">
+            <div class="hero-content">
+                <h1>Contact Getwell Hospital</h1>
+                <p>We're here to help. Reach out to us for appointments, information, or any questions you may have.</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="content-card fade-in">
+                <h2>Contact Getwell Hospital</h2>
+                <p>We're here to help. Reach out to us for appointments, information, or any questions you may have.</p>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 2rem 0;">
+                    <div>
+                        <h3>📍 Location</h3>
+                        <p>123 Health Avenue<br>
+                            Medical District<br>
+                            Wellness City, WC 12345</p>
+
+                        <h3>📞 Phone Numbers</h3>
+                        <p><strong>General Information:</strong> +1-555-GETWELL<br>
+                            <strong>Emergency:</strong> 911<br>
+                            <strong>Appointments:</strong> +1-555-438-9355
+                        </p>
+
+                        <h3>🕒 Visiting Hours</h3>
+                        <p>Monday - Sunday: 8:00 AM - 8:00 PM<br>
+                            ICU: 10:00 AM - 7:00 PM</p>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3>Book an Appointment</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="department">Department</label>
+                                <select id="department" name="department" required>
+                                    <option value="">Select Department</option>
+                                    <option value="cardiology">Cardiology</option>
+                                    <option value="neurology">Neurology</option>
+                                    <option value="orthopedics">Orthopedics</option>
+                                    <option value="pediatrics">Pediatrics</option>
+                                    <option value="general">General Medicine</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    placeholder="Please describe your symptoms or reason for visit..."></textarea>
+                            </div>
+                            <button type="submit" class="cta-button">Book Appointment</button>
+                        </form>
+
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.063298260303!2d32.58251936427144!3d0.34759648600198114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb3d153d5fbb%3A0x55e3a5dfb5536e4b!2sMulago%20Hospital!5e0!3m2!1sen!2sug!4v1624961543290!5m2!1sen!2sug"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🏥 Getwell Hospital</h3>
+                    <p>Your trusted healthcare partner for over 35 years. Providing exceptional medical care with
+                        compassion and excellence.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📸</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="doctors">Doctors</a></li>
+                        <li><a href="#" data-page="about">About Us</a></li>
+                        <li><a href="#" data-page="contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#" data-page="services">Emergency Care</a></li>
+                        <li><a href="#" data-page="services">Cardiology</a></li>
+                        <li><a href="#" data-page="services">Neurology</a></li>
+                        <li><a href="#" data-page="services">Orthopedics</a></li>
+                        <li><a href="#" data-page="services">Pediatrics</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>📍 123 Health Avenue<br>&nbsp;&nbsp;&nbsp;&nbsp;Wellness City, WC 12345</li>
+                        <li>📞 +1-555-GETWELL</li>
+                        <li>🚨 Emergency: 911</li>
+                        <li>✉️ info@getwellhospital.com</li>
+                        <li>🕒 24/7 Emergency Care</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Getwell Hospital. All rights reserved. | Privacy Policy | Terms of Service | Patient
+                    Rights</p>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="script.js"></script>  -->
+</body>
+
+</html>
